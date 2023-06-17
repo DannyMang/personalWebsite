@@ -1,0 +1,39 @@
+body {
+    background-color: #A1EAFB;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    height: 0;
+    width: 30%;
+    border-width: 10px;
+}
+
+img {
+    height: 60%;
+}
+
+
+h1 :hover {
+    color: #D9ACF5;
+}
+
+
+
+
+/*
+class selectors
+
+you are able to make different elements part of class and multiple classes can be applied to one element 
+*/
+.labeling {
+
+    color : #D9ACF5;
+}
+
+.spaghetti {
+    font-weight : bold;
+    font-size : 22px;
+    
+}

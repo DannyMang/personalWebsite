@@ -1,0 +1,31 @@
+div {
+    background-color : #AAE3E2;
+    padding : 20px;
+}
+
+.marginEditor {
+    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.topContainer{
+    background-color: red;
+    height : 200px;
+    width : 200px;
+    border : 10px;
+    padding : 10px;
+    align-self: center;
+    border-color: black;
+    border: solid;
+    margin-left: 260px;
+}
+.bottomContainer {
+    background-color: blue;
+    height: 200px;
+    padding: 10px;
+    width: 200px;
+    margin-left: 500px;
+
+}
