@@ -1,39 +1,102 @@
 body {
-    background-color: #A1EAFB;
+    
+    background-color: black;
+    color: #1DB954;
+}
+div {
+    border: 1px solid white;
+    padding: 20px;
+
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    height: 0;
-    width: 30%;
-    border-width: 10px;
+.main{
+    display: flex;
+
 }
-
-img {
-    height: 60%;
+.main-item{
+    flex: 1 1 auto;
+    flex-direction: column;
+    background-color: #191414;
 }
+.navigation{
+    font-size: 20px;
 
-
-h1 :hover {
-    color: #D9ACF5;
 }
-
-
-
-
-/*
-class selectors
-
-you are able to make different elements part of class and multiple classes can be applied to one element 
-*/
-.labeling {
-
-    color : #D9ACF5;
+.top-left-home{
+    font-size:20px;
 }
+#top-heading {
+    position: relative;
+    height: 250px;
+    background-image: url("IMG_1959.png");
+    display: flex;
 
-.spaghetti {
-    font-weight : bold;
-    font-size : 22px;
+}
+#top-heading img {
+    height: auto;
+    object-fit: cover;
+    width: 60%;
+    padding-left: 50px;
     
 }
+#top-heading h1 {
+    color:white;
+
+}
+#top-heading h2 {
+    color: white;
+    font-size: 125%;
+
+}
+
+a {
+    display: flex;
+    flex: 1; 
+}
+#right-side{
+    flex:4;
+    position: relative;
+    overflow: hidden;
+}
+
+#name{
+    position:absolute;
+    bottom : 0;
+}
+
+
+.second{
+    background-color: aliceblue;
+    height : 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+.second img{
+    height: auto;
+    object-fit: cover;
+    width: 20%;
+    padding-left: 40px;
+    animation: spin 4s linear infinite;
+
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.third{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
