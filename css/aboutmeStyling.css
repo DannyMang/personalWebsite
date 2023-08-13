@@ -1,95 +1,107 @@
-
-
 body {
     background-color: black;
+    color: #1DB954;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 1.2rem;
 
 }
+
 div {
     padding: 20px;
-    border: 2px soild white;
+    border: 2px solid white;
 }
 
-.main h1{
+.main h1 {
     font-size: 4rem;
 }
+
 .main-item {
+    display: flex;
+
+}
+
+.home {
+    flex-grow: 1.75;
+}
+
+.right {
     display: flex;
 }
 
-.home{
-    flex-grow:1.75;
-}
-.right{ 
-    display:flex;
-}
-.main-item .right a{
+.main-item .right a {
     flex: 1;
     font-size: 20px;
     text-decoration: none;
-    margin: 1px;    
+    margin: 1px;
 }
 
-.navigation{
+.navigation {
     font-size: 20px;
 
-}
-#top-heading > div{
-    height:450px;
 }
 
 #top-heading {
     position: relative;
+    height: 250px;
     background-image: url("IMG_1959.png");
     display: flex;
+
 }
 
 #top-heading img {
     height: auto;
     object-fit: cover;
-    width: 70%;
-    padding-left: 150px;
+    width: 60%;
+    padding-left: 50px;
+
 }
 
 #top-heading h1 {
     color: white;
+
 }
 
 #top-heading h2 {
     color: white;
     font-size: 125%;
+
 }
 
 a {
     display: flex;
-    flex: 1; 
-}
-
-
-#name{
-    position:absolute;
-    bottom : 0;
-}
-
-
-.second{
-    background-color: aliceblue;
-    height : 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 1;
 }
 
 
+#name {
+    position: absolute;
+    bottom: 0;
+}
 
-.third{
+
+.second {
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.second img {
+    height: auto;
+    object-fit: cover;
+    width: 20%;
+    padding-left: 40px;
+    animation: spin 4s linear infinite;
+
+}
+
+
+.third {
     height: 300px;
     display: flex;
     justify-content: center;
 
 
 }
-
-
