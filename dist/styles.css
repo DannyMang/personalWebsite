@@ -1,0 +1,159 @@
+body {
+    background-color: #C3E8BD;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+div {
+    padding: 20px;
+    border: 2px soild white;
+}
+
+.main h1 {
+    font-size: 4rem;
+}
+
+.top-bar {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 1000;
+
+}
+.top-bar a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the sub-menu */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+.main-item {
+    display: flex;
+}
+
+.home {
+    flex-grow: 1.75;
+}
+
+.right {
+    display: flex;
+
+}
+.right a{
+    text-decoration: none;
+}
+.right:hover{
+     color:antiquewhite;
+}
+
+.main-item .right a {
+    flex: 1;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 1px;
+    padding: 20px;
+}
+
+.navigation {
+    font-size: 20px;
+
+}
+
+#top-heading>div {
+    height: 450px;
+}
+
+#top-heading {
+    position: relative;
+    background-image: url("IMG_1959.png");
+    display: flex;
+}
+
+#top-heading img {
+    height: auto;
+    object-fit: cover;
+    width: 70%;
+    padding-left: 150px;
+}
+
+#top-heading h1 {
+    color: white;
+}
+
+#top-heading h2 {
+    color: white;
+    font-size: 125%;
+}
+
+a {
+    display: flex;
+    flex: 1;
+}
+
+
+#name {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.second {
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+
+.third {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+
+}

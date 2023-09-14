@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DannyMang/personalWebsite.git"
+  },
+  "keywords": [
+    "Web"
+  ],
+  "author": "Daniel Ung",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DannyMang/personalWebsite/issues"
+  },
+  "homepage": "https://github.com/DannyMang/personalWebsite#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
